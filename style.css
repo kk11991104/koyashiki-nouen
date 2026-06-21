@@ -612,6 +612,7 @@ body {
     max-width: 540px;
     margin: 0 auto;
     width: 100%;
+    transform: none;
   }
 
   .hero-floating-label {
