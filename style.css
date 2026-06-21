@@ -469,12 +469,25 @@ body {
   margin-bottom: 32px;
 }
 
-.hero-badge span {
+.hero-badge span,
+.hero-badge a {
   font-size: 0.8rem;
   font-weight: 700;
   color: var(--color-gold-dark);
   letter-spacing: 0.15em;
   font-family: var(--font-serif-jp);
+  text-decoration: none;
+}
+.hero-badge a {
+  display: block;
+  padding: 6px 16px;
+  margin: -6px -16px;
+  border-radius: 2px;
+  transition: background-color 0.2s, color 0.2s;
+}
+.hero-badge a:hover {
+  background-color: var(--color-chestnut);
+  color: #fff;
 }
 
 .hero-title {
