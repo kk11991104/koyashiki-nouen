@@ -829,10 +829,16 @@ body {
 .banner-content {
   position: relative;
   z-index: 2;
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 40px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.stat-rows {
+  display: flex;
+  gap: 56px;
+  align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .banner-tag {
@@ -886,9 +892,8 @@ body {
     grid-template-columns: 1fr;
   }
   
-  .banner-content {
-    grid-template-columns: 1fr;
-    gap: 24px;
+  .stat-rows {
+    gap: 32px;
   }
 
   .stat-number {
