@@ -508,6 +508,7 @@ body {
   color: var(--color-chestnut);
   position: relative;
   display: inline-block;
+  margin-left: 0.7em; /* 2行目「愛媛から」を少し下げる「ずらし」演出（控えめ） */
 }
 
 .hero-title .line-en {
