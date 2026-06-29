@@ -140,6 +140,19 @@ body {
 
 .logo a {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-mark {
+  height: 52px;
+  width: auto;
+  display: block;
+}
+
+.logo-text {
+  display: flex;
   flex-direction: column;
 }
 
